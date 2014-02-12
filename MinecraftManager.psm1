@@ -9,23 +9,41 @@
 #
 #
 
-function New-MinecraftServer {
+function New-MCServer {
 }
 
-function Stop-MinecraftServer {
+function Stop-MCServer {
 }
 
-function Start-MinecraftServer {
+function Start-MCServer {
 }
 
-function Restart-MinecraftServer {
+function Restart-MCServer {
 }
 
-function Remove-MinecraftServer {
+function Remove-MCServer {
 }
 
-function Install-MinecraftServer {
+function InstallMCServer {
+}
+
+function Backup-MCServer {
 }
 
 function Grant-MCServerAccess {
+}
+
+function Revoke-MCServerAccess {
+}
+
+function Get-MCServerProperty {
+}
+
+function Set-MCServerProperty {
+}
+
+function Get-MCServerLog {
+}
+
+function Clear-MCServerLog {
 }
