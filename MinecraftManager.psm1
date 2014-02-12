@@ -24,7 +24,7 @@ function Restart-MCServer {
 function Remove-MCServer {
 }
 
-function InstallMCServer {
+function Install-MCServer {
 }
 
 function Backup-MCServer {
