@@ -9,6 +9,12 @@
 #
 #
 
+$DefaultInstallLocation = "$env:ProgramData\MCServer"
+
+if(-not (Test-Path $DefaultInstallLocation)) {
+  New-Item $DefaultInstallLocation -Type Directory | Out-Null
+}
+
 function New-MCServer {
 }
 
@@ -25,6 +31,12 @@ function Remove-MCServer {
 }
 
 function Install-MCServer {
+  Param(
+    [String]
+    $Source,
+    [String]
+    $Destination
+  )
 }
 
 function Backup-MCServer {
